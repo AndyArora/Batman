@@ -7,7 +7,7 @@ class createDrops{
           this.body = Bodies.circle(x, y, 5, options);
           this.radius = 5;
           World.add(world, this.body);
-
+       
     }
    
     update(){
